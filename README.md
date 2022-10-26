@@ -1,1 +1,2 @@
 # songshuffle
+This Python program shuffles through mp3 files. It takes a directory as a command line argument and randomly shuffles through any mp3 files found within the directory. The first time a directory is used, a history file is generated that includes every song and how many times it has been played. Every time a song is played, the history file updates the count. All of the songs in the directory will be played before songs are repeated. 
